@@ -8,6 +8,8 @@
             <class name="tests.userManagement.GetUsers" />
             <class name="tests.userManagement.PostUser" />
             <class name="tests.userManagement.DeleteUser" />
+            <class name="tests.userManagement.PutUser" />
+            <class name="tests.bookManagement.GetBooks" />
         </classes>
     </test>
 </suite>
