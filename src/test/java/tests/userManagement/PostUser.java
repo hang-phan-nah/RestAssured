@@ -10,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utils.ConfigReader;
-import data.generateDataUser;
 import utils.Action;
 
 import java.util.HashMap;
@@ -31,8 +30,6 @@ public class PostUser {
         path_users = ConfigReader.get("base.path.users");
         path_user = ConfigReader.get("base.path.user");
     }
-
-
 
     @Test
     public void PostListUserSuccess(){
